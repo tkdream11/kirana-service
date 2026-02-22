@@ -27,7 +27,6 @@ A Spring Boot authentication service using Java 25 virtual threads for efficient
 
 This keeps auth isolated so additional monolith modules can be added later under `com.demo.app.<module>`.
 
-
 ## Configuration
 `src/main/resources/application.properties`:
 - `spring.threads.virtual.enabled=true`
