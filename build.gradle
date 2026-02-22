@@ -3,8 +3,8 @@ plugins {
     id 'application'
 }
 
-group = 'com.example'
-version = '0.0.1-SNAPSHOT'
+group = 'com.demo.app'
+version = '1.0.0'
 
 java {
     toolchain {
@@ -38,5 +38,5 @@ tasks.named('test') {
 }
 
 application {
-    mainClass = 'com.example.auth.AuthServiceApplication'
+    mainClass = 'com.demo.app.AuthServiceApplication'
 }

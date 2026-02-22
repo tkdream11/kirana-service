@@ -21,6 +21,12 @@ A Spring Boot authentication service using Java 25 virtual threads for efficient
 - Protected endpoint: `GET /api/me`
 - Virtual threads enabled (`spring.threads.virtual.enabled=true`)
 
+## Package structure
+- `com.demo.app` -> application entry point
+- `com.demo.app.auth` -> authentication module (controller/service/security/dto/model)
+
+This keeps auth isolated so additional monolith modules can be added later under `com.demo.app.<module>`.
+
 ## Configuration
 `src/main/resources/application.properties`:
 - `spring.threads.virtual.enabled=true`
