@@ -3,7 +3,7 @@ plugins {
     id 'application'
 }
 
-group = 'com.demo.app'
+group = 'com.kirana.app'
 version = '1.0.0'
 
 java {
